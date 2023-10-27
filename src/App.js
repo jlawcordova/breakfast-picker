@@ -1,23 +1,40 @@
-import logo from './logo.svg';
+import logo from "./logo.svg";
+import Canvas from "./components/Canvas.js";
+import Drawer from "./components/Drawer.js";
 import './App.css';
 
 function App() {
+  // These are all available items.
+  // Do not modify these.
+  const availableItems = [
+    {
+      id: 0,
+      image: "/coffee.png",
+      name: "Coffee",
+    },
+    {
+      id: 1,
+      image: "/oats.png",
+      name: "Oats",
+    },
+    {
+      id: 2,
+      image: "/fruits.png",
+      name: "Fruits",
+    },
+  ];
+
+
+  // This function is triggered when an item in the drawer is clicked.
+  // The parameter is the item that was clicked.
+  function DrawerItemClick(item) {
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 className="text-2xl text-center my-8">Breakfast Picker</h1>
+      <Drawer items={availableItems} onItemClick={DrawerItemClick}></Drawer>
+      <Canvas></Canvas>
     </div>
   );
 }
