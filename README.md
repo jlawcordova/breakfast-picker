@@ -5,6 +5,8 @@ The task is to:
 2. The `CanvasItem`s have to align vertically and centered within the `Canvas`.
 3. Only a maximum of 5 `CanvasItem`s should be possible to place on the `Canvas`.
 
+Refer to [this video](https://www.loom.com/share/d9df4f416b50400faf78600d9be78f2a?sid=65e804ea-9f0d-4a9b-9a93-526fea421bd3).
+
 ## Available Scripts
 
 In the project directory, you can run:
