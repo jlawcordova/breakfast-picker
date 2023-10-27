@@ -1,7 +1,5 @@
-import logo from "./logo.svg";
 import Canvas from "./components/Canvas.js";
 import Drawer from "./components/Drawer.js";
-import './App.css';
 
 function App() {
   // These are all available items.
