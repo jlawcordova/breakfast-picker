@@ -2,7 +2,7 @@
 The app has a drawer with breakfast items to choose from.
 The task is to:
 1. When an item in the `Drawer` is clicked, a `CanvasItem` should be added into the `Canvas`.
-2. The `CanvasItem`s have to align vertically within the `Canvas`.
+2. The `CanvasItem`s have to align vertically and centered within the `Canvas`.
 3. Only a maximum of 5 `CanvasItem`s should be possible to place on the `Canvas`.
 
 ## Available Scripts
